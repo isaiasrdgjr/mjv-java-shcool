@@ -10,6 +10,8 @@ public class MinhaPrimeiraClass {
 		int c = a+b;
 		
 		System.out.println("\n" + c);
+		
+		System.out.println("\nOK #################### OK");
 
 	}
 
