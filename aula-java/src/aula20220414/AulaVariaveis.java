@@ -4,8 +4,13 @@ public class AulaVariaveis {
 
 	public static void main(String[] args) {
 		
-		final String PALAVRA = " ISAIAS ";
-		System.out.println(PALAVRA);
+		final String palavra = " ISAIAS ";
+		
+		String palavraCorrigida = palavra.replace(" ", "");
+		
+		System.out.println(palavra);
+		System.out.println(palavraCorrigida);
+		
 				
 
 	}
