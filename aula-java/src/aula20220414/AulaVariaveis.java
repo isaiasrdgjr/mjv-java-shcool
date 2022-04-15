@@ -7,10 +7,14 @@ public class AulaVariaveis {
 		final String palavra = " ISAIAS ";
 		
 		String palavraCorrigida = palavra.replace(" ", "");
+		//String outraPalavra = palavra = palavra.replace("I", "Y");
 		
 		System.out.println(palavra);
 		System.out.println(palavraCorrigida);
 		
+		
+		
+		//System.out.println(outraPalavra);
 				
 
 	}
