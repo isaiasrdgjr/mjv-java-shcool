@@ -3,6 +3,9 @@
 public class StringCriacao {
 
 	public static void main(String[] args) {
+		
+		//tradicional
+		
 		String bandaX = "Coldplay";
 		String bandaY = new String ("Coldplay");
 		
@@ -20,6 +23,8 @@ public class StringCriacao {
 		String banda2 = new String (banda1);
 		
 		System.out.println("\n" + banda2);
+		
+			//String é imutável, não é possível alterar o seu valor e sim criar uma nova
 		
 	}
 }
