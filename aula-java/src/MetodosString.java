@@ -40,9 +40,10 @@ public class MetodosString {
 		System.out.println(banda.equalsIgnoreCase("Coldplay"));//true
 		
 		//compareTo compara se uma String "vem antes ou depois da outra" por ordem alfabética - se vier antes = valor positivo, mesma posição = 0 e valor negativo se vier depois
-		System.out.println("\n" + banda1.compareTo(banda));
-		System.out.println("a".compareTo("A"));
-		System.out.println("a".compareToIgnoreCase("A")); //valores minusculos vem antes dos maiúsculos, o IgnoreCase ignora se é maiúsculo ou minusculo
+		System.out.println("\n" + banda1.compareTo(banda));//-16
+		System.out.println("a".compareTo("A"));//32
+		System.out.println("a".compareToIgnoreCase("A")); //0
+		//valores minusculos vem antes dos maiúsculos, o IgnoreCase ignora se é maiúsculo ou minusculo
 	  }
 }
 	
