@@ -18,10 +18,7 @@ public class ExStringBuilder {
 		StringBuilder comUltimoNome = new StringBuilder(banda);
 		comUltimoNome.append(" Junior");
 		System.out.println(comUltimoNome);
-		
-		
-		
-		
+			
 			
 	}
 
