@@ -3,7 +3,20 @@ package isaias.classes.objetos;
 public class Pessoa {
 	String nome;
 	String cpf;
-	String enredeco;
+	String endereco;
 	
-
+	
+	Pessoa(String cpf, String nome, String endereco) {
+		this.cpf = cpf;
+		this.nome = nome;
+		this.endereco = endereco;
+		
+	}
+	
+	Pessoa(String cpf, String nome){
+		this(cpf, nome, "ENDEREÇO NÃO INFORMADO");
+		
+		
+	}
+	
 }
