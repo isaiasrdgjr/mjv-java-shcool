@@ -5,10 +5,11 @@ public class GeradorConteudo {
 	public String gerar (Movimentacao movimentacao) {
 		StringBuilder sb = new StringBuilder();
 		
-		sb.append(movimentacao.getData().toString().replace("-", ""));
+		sb.append(movimentacao.getData().toString().replace("-", "")); 
 		sb.append(String.format("%014d", Long.valueOf(movimentacao.getCpfCnpj().replaceAll("\\D", ""))) );
 		
 		String nome = movimentacao.getNomeCliente();
+		//System.out.println(nome);
 		
 		if(nome.length() >= 30)
 			sb.append(nome.substring(0,30) );

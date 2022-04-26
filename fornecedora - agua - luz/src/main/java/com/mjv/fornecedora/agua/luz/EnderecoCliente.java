@@ -2,11 +2,11 @@ package com.mjv.fornecedora.agua.luz;
 
 public class EnderecoCliente {
 	
-	String logradouro;
-	String complemento;
-	String bairro;
-	String cidade;
-	String cep;
+	static String logradouro;
+	static String complemento;
+	static String bairro;
+	static String cidade;
+	static String cep;
 
 	EnderecoCliente(String logradouro, String complemento, String bairro, String cidade, String cep) {
 		
@@ -16,5 +16,7 @@ public class EnderecoCliente {
 		this.bairro = bairro;
 		this.cidade = cidade;
 		this.cep = cep;
+		
+		
 	}
 }

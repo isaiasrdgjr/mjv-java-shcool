@@ -22,6 +22,5 @@ public class SistemaGeradorMovimentacao {
 		String nc = ts.escreverDisco(mov1);
 		*/
 	
-
 	}
 }

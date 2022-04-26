@@ -8,8 +8,7 @@ public class SistemaCadastro {
 			
 			System.out.println(pessoa1.endereco);
 			System.out.println(pessoa1.nome);
-			System.out.println(pessoa1.cpf 
-					+"\n");
+			System.out.println(pessoa1.cpf +"\n");
 	
 
 	

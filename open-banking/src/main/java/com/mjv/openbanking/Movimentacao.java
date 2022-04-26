@@ -14,6 +14,7 @@ public class Movimentacao {
 	//retorna o valor do atributo do objeto
 	public LocalDate getData() {
 		return data;
+		
 	}
 	
 	//define um valor para um atributo do objeto
@@ -33,10 +34,13 @@ public class Movimentacao {
 		this.cpfCnpj = cpfCnpj;
 	}
 	public String getNomeCliente() {
+		
 		return nomeCliente;
+		
 	}
 	public void setNomeCliente(String nomeCliente) {
 		this.nomeCliente = nomeCliente;
+		
 	}
 	public Boolean getEstornada() {
 		return estornada;
@@ -56,7 +60,7 @@ public class Movimentacao {
 		return "Movimentacao [data=" + data + ", valor=" + valor + ", cpfCnpj=" + cpfCnpj + ", nomeCliente="
 				+ nomeCliente + ", estornada=" + estornada + ", tipo=" + tipo + "]";
 	}
-
+	
 	
 	//java beans - getters e setters
 

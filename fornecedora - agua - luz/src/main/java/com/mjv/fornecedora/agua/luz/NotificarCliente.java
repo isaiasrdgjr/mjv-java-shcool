@@ -1,15 +1,19 @@
 package com.mjv.fornecedora.agua.luz;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class NotificarCliente {
-		 
+	
+			 
 	private String nomeCliente;
 	private String cpf;
 	private Long protocolo;
-	private LocalDate data;
+	private LocalDateTime data;
 	private TipoServico tipo;
 	private Double valor;
+	
 	
 	
 	
@@ -33,11 +37,11 @@ public class NotificarCliente {
 	public void setProtocolo(Long protocolo) {
 		this.protocolo = protocolo;
 	}
-	public LocalDate getData() {
+	public LocalDateTime getData() {
 		return data;
 	}
-	public void setData(LocalDate data) {
-		this.data = data;
+	public void setData(LocalDateTime localDateTime) {
+		this.data = localDateTime;
 	}
 	public TipoServico getTipo() {
 		return tipo;
