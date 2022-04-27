@@ -6,7 +6,10 @@ import java.time.LocalTime;
 
 
 
+
+
 public class SistemaNotificacaoCliente {
+	
 	
 	public static void main(String[] args) {
 		
@@ -28,12 +31,19 @@ public class SistemaNotificacaoCliente {
 		notificar.setData(LocalDate.of(2022,05,07));
 		notificar.setHora(LocalTime.of(15,21));
 		notificar.setTipo(TipoServico.AGUA);
-		notificar.setValor(127.33);
+		notificar.setValor(127.35);
 		notificar.setTipoNotific(TipoNotificacao.SMS);
 		
 	
 		ConteudoNotificacao cn = new ConteudoNotificacao();
 		String conteudoGerado = cn.gerador(notificar);
+		
+		GeradorArquivoTXT gaTxt = new GeradorArquivoTXT();
+		gaTxt.escreverTxt(conteudoGerado);
+		
+		GeradorArquivoCSV cn2 = new GeradorArquivoCSV();
+		cn2.escreverDisco(conteudoGerado);
+		
 		
 		
 		
