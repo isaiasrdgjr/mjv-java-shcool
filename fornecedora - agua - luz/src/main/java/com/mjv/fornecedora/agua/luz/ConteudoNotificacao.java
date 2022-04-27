@@ -12,7 +12,7 @@ public class ConteudoNotificacao {
 		sb.append(" informamos que conforme contrato com protocolo de número " + notificacao.getProtocolo()+"\n");
 		sb.append("está agendado para a data/hora ");
 		sb.append(notificacao.getData().toString().replace("-", "/"));
-		sb.append(" a " + notificacao.getTipo());
+		sb.append(" a " + notificacao.getTipo().getServico());
 		sb.append(" com taxa de valor R$" + notificacao.getValor());
 		sb.append(" em sua residência localizada no endereço abaixo:\n\n");
 		
