@@ -38,7 +38,7 @@ public class ConteudoNotificacao {
 		
 		
 		
-		String city = notificacao.getBairro();
+		String city = notificacao.getCidade();
 				
 		if(city.length() >= 30)
 			sb.append(city.substring(0,30).toUpperCase().trim() + ";");
